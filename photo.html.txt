@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>cutie bby 👶</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="center">
+
+<h1>👶 my babyyy </h1>
+
+<img src="baby.jpg" class="photo">
+
+<br><br>
+
+<a href="letter.html">
+<button>Open Letter 💌</button>
+</a>
+
+</div>
+
+</body>
+</html>

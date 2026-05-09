@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Birthday 🎂</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="center">
+
+<h1>🎂 Happy Birthday</h1>
+
+<div class="cake">🎂</div>
+
+<a href="photo.html">
+<button>Start Surprise</button>
+</a>
+
+</div>
+
+</body>
+</html>

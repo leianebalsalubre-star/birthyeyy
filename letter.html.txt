@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Letter 💌</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<audio id="bgmusic" loop>
+    <source src="song.mp3" type="audio/mpeg">
+</audio>
+
+<div class="envelope" onclick="openLetter()">
+    ✉️<br>
+    <small>Click to open</small>
+</div>
+
+<div class="letter-box" id="letter">
+
+<h1>💌 To my dearest</h1>
+
+<p>
+Happy Birthday, my love ❤️<br><br>
+
+I just want to take today to remind you how much you mean to me...<br><br>
+
+You’re one of the most important people in my life...<br><br>
+
+Thank you for your kindness, patience, and presence...<br><br>
+
+I hope this year brings you peace, strength, and happiness...<br><br>
+
+I’ll always be here, loving you in all moments of life.<br><br>
+
+Happy Birthday, baby ❤️
+</p>
+
+</div>
+
+<script>
+function openLetter(){
+    document.querySelector(".envelope").style.display="none";
+    document.getElementById("letter").style.display="block";
+    document.getElementById("bgmusic").play();
+}
+</script>
+
+</body>
+</html>
